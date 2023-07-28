@@ -1,0 +1,19 @@
+begin
+if (sellPosition=0) then
+begin
+
+
+SellShortStop	(mediaexp(2,high)+200,mediaexp(2,high));
+end;
+
+if (sellPosition=1) then
+begin
+se (ifr(2)>12) entao
+BuyToCoverStop(mediaexp(2, low)-100 , mediaexp(2,low));
+
+end;
+end;
+
+// 5 minutos e 15 minutos
+// meta de gain = 300
+// meta de loss = 200
