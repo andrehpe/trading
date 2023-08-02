@@ -1,0 +1,19 @@
+// Tempo: 3
+// Gain: 150
+// Loss: 50
+
+
+  begin
+if (BuyPosition=0) then
+begin
+
+se (ifr(2)>5) entao
+BuyStop(mediaexp(2, low)-50 , mediaexp(2,low));
+end;
+
+if (buyPosition=1) then
+begin
+SellToCoverStop(mediaexp(2,high)+80,mediaexp(2,high));
+
+end;
+end;
