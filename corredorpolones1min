@@ -1,6 +1,6 @@
 // Tempo: 1 minuto
 // Gain: 100
-// Loss: 70
+// Loss: 75
 
 begin
 if (BuyPosition=0) then
