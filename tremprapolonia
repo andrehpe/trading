@@ -1,0 +1,18 @@
+// Objetivo de ganho: 220
+// Loss: 0
+// Fator: 2,46
+// 4 minutos
+
+if (BuyPosition=0) then
+begin
+
+se (ifr(2)>5) entao
+BuyStop(mediaexp(2, low)-40 , mediaexp(2,low));
+end;
+
+if (buyPosition=1) then
+begin
+SellToCoverStop(mediaexp(2,high)+60,mediaexp(2,high));
+
+end;
+end;
