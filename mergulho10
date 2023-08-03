@@ -1,0 +1,21 @@
+begin
+if (sellPosition=0) then
+begin
+
+
+SellShortStop	(mediaexp(2,high)+200,mediaexp(2,high));
+end;
+
+if (sellPosition=1) then
+begin
+
+BuyToCoverStop(mediaexp(2, low)-100 , mediaexp(2,low));
+
+end;
+end;
+
+360 gain
+170 loss
+10 min
+
+2,21
