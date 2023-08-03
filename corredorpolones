@@ -5,13 +5,13 @@ begin
 se (ifr(2)>5) entao
  
        
-BuyStop(mediaexp(5, low)-100 , mediaexp(5,low));
+BuyStop(mediaexp(5, low)-80 , mediaexp(5,low));
 end;
 
 if (buyPosition=1) then
 begin
 
-SellToCoverStop(mediaexp(10,high)+200,mediaexp(10,high));
+SellToCoverStop(mediaexp(10,high)+110,mediaexp(10,high));
   
 if (buyPosition=1) then
 
@@ -22,6 +22,8 @@ SellToCoverAtMarket;
 end;
 end;
 
+
 // 5 minutos
-// meta de gain = 300
+// meta de gain = 250
 // meta de loss = 200
+// 1,82
