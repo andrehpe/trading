@@ -8,7 +8,7 @@ end;
 
 if (buyPosition=1) then
 begin
-SellToCoverStop(mediaexp(2,high)+200,mediaexp(2,high));
+SellToCoverStop(mediaexp(2,high)+130,mediaexp(2,high));
 
 end;
 end;
