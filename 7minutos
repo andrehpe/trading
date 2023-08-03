@@ -1,0 +1,19 @@
+begin
+if (BuyPosition=0) then
+begin
+
+se (ifr(2)>5) entao
+BuyStop(mediaexp(2, low)-90 , mediaexp(2,low));
+end;
+
+if (buyPosition=1) then
+begin
+SellToCoverStop(mediaexp(2,high)+60,mediaexp(2,high));
+
+end;
+end;
+
+Tempo: 7 minutos
+Fator: 2,21
+Ganho: 290
+Loss: 220
