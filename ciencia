@@ -1,2 +1,5 @@
 - quanto menor é o período de trade, menor deve ser o "-" e "+"
 - 
+  se mediaexp(8,close)>mediaexp(8,close)[1]  entao
+se mediaexp(80,close)>mediaexp(80,close)[1] entao
+se mediaexp(8,close)>mediaexp(80,close)  entao
